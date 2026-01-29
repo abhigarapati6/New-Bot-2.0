@@ -1,6 +1,6 @@
-import React, { useContext, useState } from 'react';
+import { Menu, Moon, Search, ShoppingCart, Sun, User, X } from 'lucide-react';
+import { useContext, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { ShoppingCart, User, Search, Sun, Moon, Menu, X } from 'lucide-react';
 import { ShopContext } from '../context/ShopContext';
 import { ThemeContext } from '../context/ThemeContext';
 import './Navbar.css';
@@ -27,7 +27,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="container nav-container">
                 <Link to="/" className="nav-logo">
-                    SNITCH<span className="text-accent">.</span>
+                    Botique<span className="text-accent">.</span>
                 </Link>
 
                 <div className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
