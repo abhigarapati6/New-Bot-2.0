@@ -15,6 +15,10 @@ import Checkout from './pages/Checkout';
 import Offers from './pages/Offers';
 import Profile from './pages/Profile';
 import Orders from './pages/Orders';
+import Footer from './components/Footer';
+
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import './index.css';
 
@@ -41,7 +45,9 @@ function App() {
                                 <Route path="/orders" element={<Orders />} />
                             </Routes>
                         </main>
+                        <Footer />
                     </div>
+                    <ToastContainer position="bottom-right" autoClose={3000} />
                 </Router>
             </ShopProvider>
         </ThemeProvider>

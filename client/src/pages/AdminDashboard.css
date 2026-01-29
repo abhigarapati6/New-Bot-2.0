@@ -1,8 +1,8 @@
 .admin-dashboard-page {
     display: flex;
     min-height: 100vh;
-    background: #0f172a;
-    color: #e2e8f0;
+    background: var(--primary-bg);
+    color: var(--text-main);
     padding-top: 0;
     /* Override general page padding if any */
 }
@@ -10,9 +10,9 @@
 /* Sidebar */
 .admin-sidebar {
     width: 260px;
-    background: #0f172a;
+    background: var(--primary-bg);
     /* Same as bg but can separate visually if needed */
-    border-right: 1px solid #1e293b;
+    border-right: 1px solid var(--border-color);
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
@@ -106,19 +106,19 @@
 
 .top-bar {
     height: 70px;
-    border-bottom: 1px solid #1e293b;
+    border-bottom: 1px solid var(--border-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
-    background: #0f172a;
+    background: var(--primary-bg);
     position: sticky;
     top: 0;
     z-index: 40;
 }
 
 .search-wrapper {
-    background: #1e293b;
+    background: var(--card-bg);
     border-radius: 6px;
     padding: 0.5rem 1rem;
     display: flex;
@@ -130,7 +130,7 @@
 .search-wrapper input {
     background: transparent;
     border: none;
-    color: white;
+    color: var(--text-main);
     width: 100%;
     outline: none;
 }
@@ -222,9 +222,9 @@
 
 /* Table */
 .table-container {
-    background: #1e293b;
+    background: var(--card-bg);
     border-radius: 8px;
-    border: 1px solid #334155;
+    border: 1px solid var(--border-color);
     overflow-x: auto;
 }
 

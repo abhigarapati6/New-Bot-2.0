@@ -1,4 +1,4 @@
-import { Menu, Moon, Search, ShoppingCart, Sun, User, X } from 'lucide-react';
+import { Menu, Moon, Search, ShoppingCart, Sun, User, X, Heart } from 'lucide-react';
 import { useContext, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { ShopContext } from '../context/ShopContext';
@@ -54,6 +54,11 @@ const Navbar = () => {
                     <button className="nav-icon-btn theme-toggle" onClick={toggleTheme}>
                         {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
                     </button>
+
+                    <Link to="/wishlist" className="nav-icon-btn">
+                        <Heart size={20} />
+                        {wishlist.length > 0 && <span className="badge">{wishlist.length}</span>}
+                    </Link>
 
                     <Link to="/cart" className="nav-icon-btn">
                         <ShoppingCart size={20} />
