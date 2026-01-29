@@ -1,0 +1,192 @@
+.offers-page {
+    padding-bottom: 4rem;
+}
+
+.deal-hero {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    padding: 4rem 1rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.deal-tag {
+    background: #ef4444;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.deal-title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.time-block {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    min-width: 80px;
+    backdrop-filter: blur(5px);
+}
+
+.time-val {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.time-label {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    letter-spacing: 1px;
+}
+
+.shop-sale-btn {
+    padding: 0.75rem 2rem;
+    font-size: 1.1rem;
+}
+
+.sections-container {
+    margin-top: 3rem;
+}
+
+.section-heading {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    border-left: 4px solid var(--accent-color);
+    padding-left: 1rem;
+}
+
+.coupons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.coupon-card {
+    background: white;
+    /* Deviation for visibility */
+    color: #0f172a;
+    padding: 1.5rem;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.coupon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.expiring-badge {
+    background: #fee2e2;
+    color: #991b1b;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+
+.coupon-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.coupon-card p {
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-bottom: 1.5rem;
+}
+
+.coupon-code-box {
+    background: #f1f5f9;
+    padding: 0.75rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px dashed #cbd5e1;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+.copy-btn {
+    background: transparent;
+    border: none;
+    color: var(--accent-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.highlight-card {
+    border: 2px solid var(--accent-color);
+    background: #eff6ff;
+}
+
+.copy-btn-filled {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.8rem;
+}
+
+.bank-offers-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.bank-card {
+    background: white;
+    color: #0f172a;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.bank-logo {
+    background: #f1f5f9;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-weight: 700;
+    min-width: 60px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.bank-info h4 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.bank-info p {
+    font-size: 0.8rem;
+    color: #64748b;
+}
+
+.details-link {
+    margin-left: auto;
+    color: var(--accent-color);
+    font-size: 0.9rem;
+    cursor: pointer;
+}
